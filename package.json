@@ -43,8 +43,5 @@
     "terser": "^5.7.0",
     "terser-brunch": "^4.0.0",
     "uglifyify": "^5.0.2"
-<<<<<<< HEAD
-=======
-  }
->>>>>>> parent of 0e441a4... part3
+
 }
