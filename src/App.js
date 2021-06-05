@@ -62,8 +62,8 @@ const App = () => {
   }
 
   const notesToShow = showAll
-  ? notes
-  : notes.filter(note => note.important)
+  ? notes.filter(note => note.important)
+  : notes
 
   return (
     <div>
@@ -71,7 +71,7 @@ const App = () => {
       <Notification message={errorMessage} />
       <div>
         <button onClick={() => setShowAll(!showAll)}>
-          show {showAll ? 'important' : 'all' }
+          show {showAll ? 'all' : 'important' }
         </button>
       </div>   
       <ul>
